@@ -1,3 +1,0 @@
-info about my bspwm config
-
-Really not that exciting. Just changing border colours and that's it
