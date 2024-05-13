@@ -1,3 +1,0 @@
-Info about my sxhkd config
-
-I have some of my fav programs on here like vscodium. terminal, rofi , etc. on here along with screenshot utility.
