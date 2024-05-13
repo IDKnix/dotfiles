@@ -10,4 +10,7 @@
 <li>Proper additions of picom, dunst, wlogout and general structure of dotfiles</li>
 
 <h3>Screenshot</h3>
-<img src="
+<img src="2024-05-13-113027_1600x900_scrot.png">
+
+<h5>TODO</h5>
+<p>Add install script</p>
