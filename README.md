@@ -14,7 +14,7 @@
 <br>
 <h3>Video</h3>
 <p>There is also a video of me showcasing this rice in more detail</p>
-<a href="
+<a href="ttps://www.youtube.com/watch?v=DtEx1cwCp60&t=42s">Here</a>
 
 <h5>TODO</h5>
 <p>Add install script</p>
