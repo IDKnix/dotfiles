@@ -1,0 +1,72 @@
+format = """
+[](#769ff0)\
+$os\
+[](bg:#486294 fg:#769ff0)\
+$username\
+[](bg:#35486e fg:#486294)\
+$cmd_duration\
+[](#35486e)\
+$character\
+
+"""
+
+right_format = """
+[](#607499)\
+$directory\
+$time\
+[](#607499)\
+"""
+
+[username]
+show_always = true
+style_user = "fg:white bg:#486294"
+format = '[ $user ]($style)'
+
+[os]
+disabled = false
+style = "bg:#769ff0 fg:white"
+
+[os.symbols]
+Windows = "󰍲"
+Ubuntu = "󰕈"
+SUSE = ""
+Raspbian = "󰐿"
+Mint = "󰣭"
+Macos = "󰀵"
+Manjaro = ""
+Linux = "󰌽"
+Gentoo = "󰣨"
+Fedora = "󰣛"
+Alpine = ""
+Amazon = ""
+Android = ""
+Arch = "󰣇 "
+Artix = "󰣇"
+CentOS = ""
+Debian = "󰣚"
+Redhat = "󱄛"
+RedHatEnterprise = "󱄛"
+
+[character]
+format = "$symbol "
+success_symbol = ""
+error_symbol = '\[[  ](red)\] [](dimmed white)'
+
+[directory]
+home_symbol = " "
+read_only = "!!"
+read_only_style = "bg:#607499 fg:italic bright-red"
+style = "bg:#607499 fg:italic #e3e5e5"
+
+format = '[[$path]($style) \[[$read_only]($read_only_style)\] ](bg:#607499)'
+
+[cmd_duration]
+min_time = 100
+format = "[ took $duration ](fg:white bg:#35486e)"
+
+[time]
+disabled = false
+format = "[$time]($style)"
+time_format = "%R"
+utc_time_offset = "local"
+style = "bg:#607499 fg:#e3e5e5"
