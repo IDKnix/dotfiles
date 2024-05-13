@@ -15,6 +15,34 @@
 <h3>Video</h3>
 <p>There is also a video of me showcasing this rice in more detail</p>
 <a href="https://www.youtube.com/watch?v=DtEx1cwCp60&t=42s">Here</a>
+<br>
+<h3>Want to install?</h3>
+<p>Before you do anything, remember to install these packages if needed</p>
+
+<li>wlogout (AUR)</li>
+<li><a href="https://github.com/alacritty/alacritty-theme">alacritty-theme</a></li>
+<li>alacritty</li>
+<li>dunst</li>
+<li>polybar</li>
+<li>papirus-icon-theme</li>
+<li>rofi</li>
+<li>nitrogen</li>
+<li>pipewire-pulse</li>
+<li>bspwm</li>
+<li>ttf-jetbrainsmono-nerd</li>
+<li>ttf-montserrat</li>
+<li>starship</li>
+
+<p>If you want to install these dotfiles, follow these instructions.</p>
+<p>1.</p><code>git clone https://github.com/IDKnix/dotfiles</code>
+<br>
+<p>2.</p><code>mkdir .config.back</code><br>
+<p>3.</p><code>cp .config/* .config.back</code>
+<p>4.</p><code>cp dotfiles/* .config/</code>
+<p>Obviously, accept any replacements (or you won't get the configs)</p>
+<p>5.</p><code>sudo cp dotfiles/etc/ /etc/</code>
+<p>6.</p><code>cp dotfiles/home/ ~</code>
+<p>7.</p><code>sudo cp dotfiles/usr/share/wlogout/icons/* /usr/share/wlogout/icons/</code>
 
 <h5>TODO</h5>
 <p>Add install script</p>
