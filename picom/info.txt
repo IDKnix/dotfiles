@@ -1,3 +1,0 @@
-Some info about my picom.conf
-
-Pretty standard but I am happy with it. Simple fading, opacity, you know, standard stuff
