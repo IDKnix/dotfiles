@@ -11,6 +11,10 @@
 
 <h3>Screenshot</h3>
 <img src="2024-05-13-113027_1600x900_scrot.png">
+<br>
+<h3>Video</h3>
+<p>There is also a video of me showcasing this rice in more detail</p>
+<a href="
 
 <h5>TODO</h5>
 <p>Add install script</p>
