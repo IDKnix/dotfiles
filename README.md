@@ -32,6 +32,12 @@
 <li>ttf-jetbrainsmono-nerd</li>
 <li>ttf-montserrat</li>
 <li>starship</li>
+<li>sxhkd</li>
+<li>firefox</li>
+<li><a href="https://github.com/pijulius/picom">pijulius's fork of picom</a></li>
+<li>sddm (optional, you can just not copy the etc folder)</li>
+<li>sddm-theme-tokyo-night-git (AUR) (only if you decided to also use sddm)</li>
+<br>
 
 <p>If you want to install these dotfiles, follow these instructions.</p>
 <p>1.</p><code>git clone https://github.com/IDKnix/dotfiles</code>
