@@ -8,11 +8,15 @@ super + Return
 
 # program launcher
 super + d
-	rofi -show drun
+	~/.config/rofi/launchers/type-6/launcher.sh
 
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
+
+# reload bspwm and restart picom
+super + {_,shift + }r
+  bspc wm -r && killall picom && picom -b --experimental-backends
 
 # firefox
 
@@ -22,35 +26,38 @@ super + {_,shift + }b
 super + n
         thunar
 # Screenshot
-
-Print
-    scrot && notify-send "Took a screenshot :)"
+super + {_,shift + }p
+	scrot && notify-send "Took a screenshot"
 
 # VSCodium (current dir)
 
 super + {_,shift + }v
 	vscodium .
 
-# VSCodium (normal)
-
-super + alt + v
-	vscodium
-
 # Dropdown terminal (from reddit, not mine)
 
 super + {_,shift +}Return
-	{alacritty, bspc rule -a \* -o state=floating sticky=on layer=above rectangle=740x380+840+500 && alacritty}
+	{alacritty, bspc rule -a \* -o state=floating layer=above && alacritty}
 
-# open pavucontrol
 
-super + alt + c
-  pavucontrol
 
-# show details about this rice
+# empty window
 
 super + {_,shift +}i
   {alacritty --hold -e 'echo ""', bspc rule -a \* -o state=floating rectangle=400x800 && alacritty --hold -e echo ""}
 
+# log out
+
+super + {_,shift +}l
+	~/.config/rofi/powermenu/type-2/powermenu.sh
+
+# jgmenu
+~button3
+   jgmenu --at-pointer
+
+# scrot
+super + alt + p
+  scrot
 
 #
 # bspwm hotkeys
