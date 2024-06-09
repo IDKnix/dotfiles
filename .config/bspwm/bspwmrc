@@ -9,7 +9,7 @@ $HOME/startlaunch.sh
 $HOME/.config/polybar/launch.sh
 
 bspc config border_width 3.5
-bspc config window_gap 12
+bspc config window_gap 6
 bspc config normal_border_color "#2b9ea6"
 bspc config focused_border_color "#2b9ea6"
 
