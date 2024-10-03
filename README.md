@@ -13,7 +13,8 @@
 <hr>
 
 <h3>Screenshot</h3>
-<img src="2024-06-03-163156_1280x720_scrot.png">
+<img src="20241002_22h51m27s_grim.png">
+<img src="20241002_22h51m39s_grim.png">
 <br>
 <hr>
 <h3>Want to install?</h3>
@@ -31,5 +32,6 @@
 <li>firefox</li>
 <li>sddm</li>
 <li>sddm-astronaut-theme (AUR)</li>
+<li>yazi</li>
 <li>git</li>
 <br>
