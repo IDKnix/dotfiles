@@ -12,4 +12,4 @@ min_time = 500
 format = "[$duration](bold yellow) "
 
 [character]
-format = "[󱞩 ](bold green)"
+format = "[❯ ](bold green)"
