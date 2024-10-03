@@ -21,9 +21,12 @@
 <p>Before you do anything, remember to install these packages if needed</p>
 
 <li>alacritty</li>
-<li>swaync</li>
+<li>dunst</li>
+<li>fish</li>
+<li>grim</li>
 <li>waybar</li>
 <li>rofi</li>
+<li>firefox</li>
 <li>swayfx (AUR)</li>
 <li>pipewire-pulse</li>
 <li>rofi-lbonn-wayland (AUR)</li>
