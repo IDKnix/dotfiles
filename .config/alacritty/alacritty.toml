@@ -4,5 +4,5 @@ padding = { x = 10, y = 10 }
 dynamic_padding = true
 
 [font]
-normal = { family = "Codelia", style = "Regular" }
+normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
 size = 12.1
