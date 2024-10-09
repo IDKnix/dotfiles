@@ -1,19 +1,36 @@
+# Default config for sway
+#
+# Copy this to ~/.config/sway/config and edit it to your liking.
+#
+# Read `man 5 sway` for a complete reference.
 exec_always autotiling
-exec swaync
-corner_radius 15
+exec_always dunst
+corner_radius 14
 blur on
 blur_radius 8
-shadows enable
+shadows on
+shadow_offset 0 0
+shadow_blur_radius 20
+shadow_color #000000BB
+shadow_inactive_color #000000B0
+default_dim_inactive 0.2
 output HDMI-A-1 enable
 output "eDP-1" disable
 gaps inner 15
 gaps outer 2
 exec lxsession
+xwayland enable
 
-client.focused #ffffff #ffffff #ffffff #ffffff #ffffff
-client.unfocused #ffffff #ffffff #ffffff #ffffff #ffffff
+client.focused #1b1f25 #1b1f25 #dee1e6 #1b1f25
+client.unfocused #0e1114 #0e1114 #dee1e6 #0e1114
+client.focused_inactive #0e1114 #0e1114 #dee1e6 #0e1114
 
-default_border pixel 2
+font pango:Google Sans 12
+
+default_border normal 2
+titlebar_separator enable
+titlebar_padding 16
+title_align center
 ### Variables
 #
 # Logo key. Use Mod1 for Alt.
@@ -94,9 +111,6 @@ output HDMI-A-1 resolution 1920x1080 position 1920,0
     # Firefox
 
     bindsym $mod+Shift+b exec firefox
-
-    # Control center
-    bindsym $mod+c exec swaync-client -t -sw
 
     # Grim
     bindsym $mod+Shift+s exec grim
