@@ -1,6 +1,5 @@
 format = '''
 $directory
-$character
 '''
 
 right_format = """
@@ -11,5 +10,6 @@ $cmd_duration\
 min_time = 500
 format = "[$duration](bold yellow) "
 
-[character]
-format = "[❯ ](bold green)"
+[directory]
+style = "bg:#181A1F;fg:#81a1c1"
+format = '[ $path ](fg:#81a1c1 bg:#181A1F) '
