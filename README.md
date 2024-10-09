@@ -1,6 +1,6 @@
 <h1 style="text-align=center;">MY DOTFILES</h1>
 <div>
-  <img src="https://img.shields.io/badge/VERSION-1.0-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/VERSION-2.0-blue?style=for-the-badge">
   <img src="https://img.shields.io/badge/Window_Manager-swayfx-blue?style=for-the-badge">
 </div>
 
@@ -13,8 +13,8 @@
 <hr>
 
 <h3>Screenshot</h3>
-<img src="20241002_22h51m27s_grim.png">
-<img src="20241002_22h51m39s_grim.png">
+<img src="20241009_20h57m27s_grim.png">
+<img src="20241009_20h57m10s_grim.png">
 <br>
 <hr>
 <h3>Want to install?</h3>
